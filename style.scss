@@ -365,3 +365,38 @@ section {
         align-items: center;
     }
 }
+.section7 {
+    background-color: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.section7 a {
+  display: flex;
+}
+
+.section7 img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.section7 h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.section7 a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #4a90e2;
+}
+
+.section7 a:hover {
+  text-decoration: underline;
+}
