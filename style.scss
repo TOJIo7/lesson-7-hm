@@ -400,3 +400,93 @@ section {
 .section7 a:hover {
   text-decoration: underline;
 }
+.footer {
+  background: #2d2e40;
+  color: #fff;
+  padding-top: 60px;
+  font-family: sans-serif;
+}
+
+.footer-top {
+    background-color: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  height: 15vh;
+  margin-bottom: -90px;
+}
+
+.col h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.col a {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #bfbfd2;
+  text-decoration: none;
+}
+
+.col a:hover {
+  color: #fff;
+}
+
+.subscribe p {
+  font-size: 14px;
+  color: #bfbfd2;
+  margin-bottom: 20px;
+}
+
+.subscribe form {
+  display: flex;
+  background: #3a3b55;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+
+.subscribe button {
+  padding: 10px 18px;
+  border: none;
+  background: #fff;
+  color: #2d2e40;
+  cursor: pointer;
+}
+
+.footer-bottom {
+    background-color: transparent;
+    height: 10vh;
+  border-top: 1px solid #1f2030;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+  margin: 0px;
+}
+
+.socials a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
