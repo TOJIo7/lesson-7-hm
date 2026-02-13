@@ -335,5 +335,33 @@ section {
   color:#777;
   font-size:14px;
 }
-
+}
+.sc6{
+    height: 60vh;
+    padding: 0px 0px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    .lf{
+        font-size: 28px;
+        align-content: center;
+        width: 40%;
+        height: 60vh;
+    }
+    .rg{
+        text-align: end;
+        width: 50%;
+        height: 60vh;
+    }
+    .rg img{
+        width: 100%;
+    }
+    .cv{
+        margin-left: -20px;
+        display: flex;
+        align-items: center;
+    }
 }
