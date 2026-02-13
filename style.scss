@@ -48,7 +48,8 @@ section {
     width: 90%;
     height: 80vh;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     background-color: rgb(60, 163, 163);
     p{
         font-size: $fz;
@@ -221,6 +222,7 @@ section {
     }
 }
 .sc4{
+    padding: 40px 0px;
     background-color: transparent;
     display: block;
     max-width: 1200px;
@@ -263,4 +265,75 @@ section {
     h1{
         margin-bottom: 10px;
     }
+}
+.bc{
+    color: $b;
+}
+.sc5{
+    padding: 40px 0px;
+    background-color: transparent;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    .sc5-tabs {
+    margin-bottom: 27px;
+    width: 300px;
+    background: #e9edf5;
+    padding: 6px;
+    border-radius: 14px;
+    gap: 6px;
+    margin-left: 35%;
+    margin-top: 30px;
+}
+
+.sc5-tabs button {
+  border: none;
+  background: transparent;
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+  border-radius: 10px;
+}
+.sc5-tabs button.active {
+  background-color: #217BF4;
+  color: #fff;
+}
+
+.c{
+  width:222px;
+  padding:20px;
+  text-align:center;
+  background:#fff;
+  border-radius:12px;
+  display:inline-block;
+  margin:10px;
+   box-shadow: 0px 0px 21px -1px rgba(34, 60, 80, 0.35);
+}
+
+.os{
+  width: 180px;
+  margin-left: 20px;
+  border-radius: 50%;
+  height: 180px;
+  border: 5px dashed orange;
+}
+.os img{
+    width: 100%;
+}
+.oss img{
+    margin-left: -18px;
+    margin-top: -7px;
+    width: 120%;
+}
+.c h4{
+  margin:15px 0 5px;
+}
+
+.c p{
+  margin:0;
+  color:#777;
+  font-size:14px;
+}
+
 }
