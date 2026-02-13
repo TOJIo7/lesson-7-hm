@@ -4,7 +4,8 @@
 }
 
 header {
-  width: 90%;
+  background-color: #D4E7FE;
+  width: 100%;
   display: flex;
   max-width: 1200px;
   align-items: center;
@@ -35,4 +36,68 @@ header fieldset input {
   padding: 6px;
   outline: none;
   border-bottom: 1px solid gray;
+  background-color: #D4E7FE;
+}
+
+section {
+  display: flex;
+  width: 90%;
+  height: 80vh;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+section p {
+  font-size: 20px;
+}
+
+.all {
+  background-color: #D4E7FE;
+  width: 100%;
+}
+
+.sc1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #D4E7FE;
+  display: flex;
+  margin-top: 20px;
+}
+.sc1 .left {
+  width: 50%;
+  align-content: center;
+}
+.sc1 .left .b1 {
+  padding: 8px 8px;
+  background-color: #a0c4f1;
+  color: blue;
+  border: none;
+  border-radius: 10px;
+}
+.sc1 .left h1 {
+  font-size: 60px;
+}
+.sc1 .left p {
+  font-size: 30px;
+}
+.sc1 .left .b2 {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #217BF4;
+  color: white;
+}
+.sc1 .left .b3 {
+  background-color: transparent;
+  border: 1px solid #217BF4;
+  color: #217BF4;
+}
+.sc1 .right {
+  width: 50%;
+}
+.sc1 .right img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
