@@ -150,6 +150,7 @@ section p {
   width: 28%;
   padding: 30px;
   height: 28vh;
+  margin-right: 10px;
   box-shadow: 0px 0px 21px -1px rgba(34, 60, 80, 0.35);
 }
 .sc3 .card .st {
@@ -194,6 +195,7 @@ section p {
   justify-content: space-between;
 }
 .sc3 .ot {
+  margin-top: -55px;
   width: 28%;
   padding: 30px;
   height: 30vh;
@@ -202,7 +204,7 @@ section p {
   margin-bottom: 10px;
 }
 .sc3 .ot h1, .sc3 .ot p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .sc3 .ot h1 {
   font-size: 37px;
@@ -216,4 +218,52 @@ section p {
   border-radius: 10px;
   display: flex;
   align-items: center;
+}
+
+.sc4 {
+  background-color: transparent;
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+  height: 95vh;
+}
+.sc4 .bb {
+  color: #217BF4;
+}
+.sc4 .boxs {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -30px;
+}
+.sc4 .boxs .lef {
+  display: flex;
+  align-items: center;
+  width: 44%;
+  padding: 25px;
+  height: 12vh;
+  border-radius: 20px;
+  box-shadow: 0px 0px 21px -1px rgba(34, 60, 80, 0.35);
+}
+.sc4 .boxs .lef h1 {
+  margin-bottom: 15px;
+}
+.sc4 .boxs .rig {
+  display: flex;
+  align-items: center;
+  width: 44%;
+  padding: 25px;
+  height: 12vh;
+  border-radius: 20px;
+  box-shadow: 0px 0px 21px -1px rgba(34, 60, 80, 0.35);
+}
+.sc4 .boxs .rig h1 {
+  margin-bottom: 15px;
+}
+
+.tx {
+  text-align: center;
+}
+.tx h1 {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
