@@ -138,4 +138,82 @@ section p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.sc3 {
+  background-color: transparent;
+  max-width: 1200px;
+  margin: auto;
+  height: 45vh;
+}
+.sc3 .card {
+  width: 28%;
+  padding: 30px;
+  height: 28vh;
+  box-shadow: 0px 0px 21px -1px rgba(34, 60, 80, 0.35);
+}
+.sc3 .card .st {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.sc3 .card .cn {
+  margin-left: -20px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.sc3 .card .b {
+  color: blue;
+}
+.sc3 .card span {
+  font-size: 20px;
+  margin-top: -8px;
+}
+.sc3 .card .en {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sc3 .card .cnn {
+  margin-left: -15px;
+}
+.sc3 .card .cn1 {
+  margin-left: 0;
+  font-size: 19px;
+}
+.sc3 .crd {
+  height: 35vh;
+  background-color: transparent;
+  box-shadow: transparent;
+}
+.sc3 .crdd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sc3 .ot {
+  width: 28%;
+  padding: 30px;
+  height: 30vh;
+}
+.sc3 .ot .st h2 {
+  margin-bottom: 10px;
+}
+.sc3 .ot h1, .sc3 .ot p {
+  margin-bottom: 10px;
+}
+.sc3 .ot h1 {
+  font-size: 37px;
+}
+.sc3 .ot .b4 {
+  gap: 10px;
+  padding: 10px;
+  background-color: #217BF4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

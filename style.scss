@@ -4,9 +4,11 @@
 }
 $br: 10px;
 $pd:10px;
+$gp:10px;
 $df:flex;
 $fz:20px;
 $nn:none;
+$b: blue;
 header{
     background-color: #D4E7FE;
     width: 100%;
@@ -138,5 +140,83 @@ section {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+.sc3{
+    background-color: transparent;
+    max-width: 1200px;
+    margin: auto;
+    height: 45vh;
+    .card{
+        width: 28%;
+        padding: 30px;
+        height:28vh;
+        // background-color: aqua;
+        box-shadow: 0px 0px 21px -1px rgba(34, 60, 80, 0.35);
+        .st{
+            align-items: center;
+            display: flex;
+            gap:$gp;
+        }
+        .cn{
+            margin-left: -20px;
+            align-items: center;
+            display: flex;
+            gap:$gp;
+        }
+        .b{
+            color: $b;
+        }
+        span{
+            font-size: 20px;
+            margin-top: -8px;
+        }
+        .en{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .cnn{
+            margin-left: -15px;
+        }
+        .cn1{
+            margin-left: 0;
+            font-size: 19px;
+        }
+    }
+    .crd{
+        height: 35vh;
+        background-color: transparent;
+        box-shadow: transparent;
+    }
+    .crdd{
+        display: flex;align-items: center;
+        justify-content: space-between;
+    }
+    .ot{
+        width: 28%;
+        padding: 30px;
+        height: 30vh;
+        .st{
+            h2{
+                margin-bottom: 10px;
+            }
+        }
+        h1,p{
+            margin-bottom: 10px;
+        }
+        h1{
+            font-size: 37px;
+        }
+         .b4{
+            gap: $gp;
+            padding: 10px;
+            background-color: #217BF4;
+            color: white;
+            border: $nn;
+            border-radius: $gp;
+            display: flex;align-items: center;
+        }
     }
 }
